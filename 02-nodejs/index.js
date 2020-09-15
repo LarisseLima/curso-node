@@ -8,7 +8,7 @@ const util = require('util')
 const obterEnderecoAsync = util.promisify(obterEndereco)
 
 function obterUsuario() {
-    // quando der algum problema -> reject(ERRO)
+    // quando der algum problea -> reject(ERRO)
     // quando sucess -> RESOLV
     return new Promise(function resolvePromise(resolve, reject) {
         setTimeout(function () {
